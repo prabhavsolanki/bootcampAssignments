@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <nav>
+      <p class="left roboto brand ">TO THE NEW</p>
+      <ul class="right h-list-wrapper small">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Quick Help</a></li>
+      </ul>
+    </nav>
+    <hr />
+
+    <div class="form-wrapper">
+      <form action="index.html">
+        <header class="form-head patch">
+            <p class="large light-font">Bug Report</p>
+          </header>
+
+          <div class="form-body small">
+          <div class="form-element">
+            <label for="title">Title:</label><br />
+            <input type="text" name="title" />
+          </div>
+
+          <div class="form-element">
+            <label for="description">Description:</p>
+            <textarea name="description" id="" cols="30" rows="10"></textarea>
+          </div>
+
+          <div class="form-element">
+              <label for="os">Operating system:</label><br>
+              <select name="os" id="">
+                  <option value="01">Windows XP</option>
+                  <option value="02">Linux</option>
+                  <option value="03">MacOS</option>
+              </select>
+          </div>
+
+          <div class="form-element">
+            <label for="product">Product:</label><br>
+            <select name="product" id="">
+                <option value="01">Formoid</option>
+                <option value="02">Application</option>
+                <option value="03">UX wireframe</option>
+            </select>
+          </div>
+
+          <div class="form-element">
+              <label for="version">Version:</label><br>
+              <input type="text" name="version" id="">
+          </div>
+
+          <div class="form-element">
+              <label for="license">License:</label><br>
+              <input type="radio" name="license" id="">Free
+              <input type="radio" name="license" id="">Business
+          </div>
+       
+          <div class="form-element">
+            <label for="severe">Severity:</label><br>
+            <select name="severe" id="">
+                <option value="01">Critical</option>
+                <option value="02">Moderate</option>
+                <option value="03">Minor</option>
+            </select>
+          </div>
+
+          <div class="form-element">
+              <label for="attach">Attachments:</label><br>
+              <input type="file" name="attach" id="">
+          </div>
+
+        </div>
+
+          <footer class="form-foot patch">
+            <input type="submit" value="Submit" class="btn">
+        </footer>
+      </form>
+
+    </div>
+  </body>
+</html>
