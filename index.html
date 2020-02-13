@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro to Javascript</title>
+  </head>
+  <body>
+    <h2>Javascript Assignment</h2>
+    <!-- Question 1 -->
+    <div class="question">
+      <h4>
+        1. Prompt for amount, interest rate and no. of years and calculate
+        simple interest.
+      </h4>
+      <button onclick="promptQues1()">Test</button>
+      <p id="amount"></p>
+      <p id="rate"></p>
+      <p id="year"></p>
+      <p id="si"></p>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="question">
+      <h4>
+        2. Check whether a string is palindrome or not
+      </h4>
+      <button onclick="promptQues2()">Test</button>
+      <p id="palindrome"></p>
+    </div>
+
+    <!-- Question 3 -->
+    <div class="question">
+      <h4>
+        3. Calculate the area of circle
+      </h4>
+      <button onclick="promptQues3()">Test</button>
+      <p id="area"></p>
+    </div>
+
+    <!-- Question 4 -->
+    <div class="question">
+      <h4>
+        4. Copy information of one object to another and log it to console.
+      </h4>
+      <button onclick="ques4()">Test</button>
+      <p id="obj"></p>
+    </div>
+
+    <!-- Question 5 -->
+    <div class="question">
+      <h4>
+        5. create a list of objects of Employee with info as follow:
+      </h4>
+      <ul>
+        <li>
+          <h4>Name, age, salary ,DOB</h4>
+          <button onclick="viewEmployees()">View Employees object</button>
+          <p id="employees"></p>
+        </li>
+        <li>
+          <h4>filter all employees with salary greater than 5000</h4>
+          <button onclick="checkSalary()">Check Salary</button>
+          <p id="salary"></p>
+        </li>
+        <li>
+          <h4>
+            group employee on the basis of their age
+          </h4>
+          <button onclick="groupByAge()">Group by age</button>
+          <p id="age"></p>
+        </li>
+        <li>
+          <h4>
+            fetch employees with salary less than 1000 and age greater than 20.
+            Then give them an increment 5 times their salary.
+          </h4>
+          <button onclick="fetch()">Fetch</button>
+          <p id="fetch"></p>
+        </li>
+      </ul>
+    </div>
+    <hr style="margin: 40px" />
+    <script src="app.js"></script>
+  </body>
+</html>
