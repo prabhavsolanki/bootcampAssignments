@@ -49,3 +49,9 @@ p.card-text {
 .text-grey {
   color: #d5d5d5;
 }
+
+@media (max-width: 768px) {
+  .foot {
+    margin-bottom: 30px;
+  }
+}
