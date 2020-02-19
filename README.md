@@ -30,10 +30,10 @@
   ( Assumption: Token returned to the customer is the order id. Order queue is unlimited. With a simple modification, we can design for a limited queue size)
 
 * Barista
- - Gets the next order from the queue
- - Prepares the coffee
- - Places the coffee in the completed order queue
- - Places a notification that order for token is ready
+  - Gets the next order from the queue
+  - Prepares the coffee
+  - Places the coffee in the completed order queue
+  - Places a notification that order for token is ready
 
 11. Convert the following code so that it uses nested while statements instead of for statements: 
 ```java
@@ -53,8 +53,9 @@
 ```
 
 12. What will be the  output on new Child(); ? 
-    class Parent extends Grandparent {
-   ```java    
+
+   ```java   
+    class Parent extends Grandparent { 
         {
         System.out.println("instance - parent");
         }
@@ -97,5 +98,5 @@
         System.out.println("instance - child");
         }
     }
-	```
+```
 13. Create a custom exception that do not have any stack trace.
