@@ -3,14 +3,14 @@ package assignment2.Ans8;
 //  8. WAP to read words from the keyboard until the word done is entered.
 //  For each word except done, report whether its first character is equal to its last character.
 //  For the required loop, use a :
-//     a)while statement
+//     b)do-while statement
 
 import java.util.Scanner;
 
-public class usingWhile {
+public class UsingDoWhile {
     public String word;
 
-    public usingWhile(String currentWord){
+    public UsingDoWhile(String currentWord){
         word = currentWord;
     }
 
@@ -23,22 +23,25 @@ public class usingWhile {
     }
 }
 
-class driver {
+class Driver {
     public static void main(String[] args) {
 
         Scanner scr = new Scanner(System.in);
         System.out.println("Start entering words...");
         String currentWord = scr.nextLine().trim();
 
-        usingWhile obj = new usingWhile(currentWord);
+        UsingDoWhile obj = new UsingDoWhile(currentWord);
 
-        while (!obj.isDone()){
+        if(obj.isDone())
+            System.exit(0);
+
+        do {
             if(obj.isFormatted())
                 System.out.println(obj.word + ": First character is equal to the last");
             else
                 System.out.println(obj.word + ": First character is NOT equal to the last");
             obj.word = scr.nextLine().trim();
-        }
+        } while(!obj.isDone());
 
     }
 }

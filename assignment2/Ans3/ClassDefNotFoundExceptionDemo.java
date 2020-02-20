@@ -8,16 +8,16 @@ public class ClassDefNotFoundExceptionDemo {
     public static void main(String[] args) {
         try {
             // The following line would throw ExceptionInInitializerError
-            simpleMathError calculator1 = new simpleMathError();
+            SimpleMathError calculator1 = new SimpleMathError();
         } catch (Throwable t) {
             System.out.println(t);
         }
         // The following line would cause NoClassDefFoundError
-        simpleMathError calculator2 = new simpleMathError();
+        SimpleMathError calculator2 = new SimpleMathError();
 
     }
 }
 
-class simpleMathError {
+class SimpleMathError {
     static int a = 1/0;
 }
