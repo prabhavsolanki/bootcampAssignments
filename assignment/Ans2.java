@@ -23,7 +23,7 @@ public class Ans2 {
             if(occurence.get(word) == null)
                 occurence.put(word, 1);
             else
-                occurence.put(word, occurence.get(word) + 2);
+                occurence.put(word, occurence.get(word) + 1);
         }
 
 //        Displaying words with frequency greater than 1

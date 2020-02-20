@@ -1,19 +1,31 @@
 package assignment;
 
 import java.util.Arrays;
+import java.util.HashMap;
 
 //    Q5. Find common elements between two arrays.
 public class Ans5 {
 
     void findCommon(int[] firstArray, int[] secondArray){
-        for(int i = 0; i < firstArray.length; i++){
-            for(int j = 0; j < secondArray.length; j++){
-                if(firstArray[i] == secondArray[j]){
-                    System.out.print(firstArray[i] + " ");
-                    break;
-                }
-            }
+
+        HashMap<Integer, Boolean> common = new HashMap<Integer, Boolean>();
+
+//        Setting firstArray elements in hashmap
+        for (int element : firstArray) {
+            common.put(element, false);
         }
+
+//        For elements common in hashmap and secondArray, setting value to true in hashmap
+        for (int element : secondArray) {
+            if(common.containsKey(element))
+                common.put(element, true);
+        }
+        common.forEach((k,v) -> {
+            if(v ==  true){
+                System.out.print(k + " ");
+
+            }
+        });
     }
 }
 

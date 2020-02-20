@@ -7,19 +7,13 @@ import java.util.HashMap;
 
 public class Ans6 {
 
-    void findElement(int[] inputArray){
-        HashMap<Integer, Integer> unique = new HashMap();
-        for (int i : inputArray) {
-            if (unique.get(i) == null)
-                unique.put(i, 1);
-            else
-                unique.put(i, unique.get(i)+1);
-        }
+    int findElement(int[] inputArray){
 
-        unique.forEach((k,v)-> {
-            if(v != 2)
-                System.out.println("Element repeated once: " + k);
-        });
+        int res = inputArray[0];
+        for (int i = 1; i < inputArray.length; i++) {
+            res = res ^ inputArray[i];
+        }
+        return res;
 
     }
 
@@ -30,6 +24,6 @@ class Ans6Driver {
         int[] inputArray = {1, 1, 2, 2, 5, 5, 7, 13, 13, 56, 56};
         Ans6 ans = new Ans6();
         System.out.println("Input array: " + Arrays.toString(inputArray));
-        ans.findElement(inputArray);
+        System.out.println("Element repeated only once: " + ans.findElement(inputArray));
     }
 }
