@@ -13,7 +13,7 @@
 3. Using (instance) Method reference create and apply add and subtract method and using (Static) Method reference create and apply multiplication method for the functional interface created.
 
 4. Create an Employee Class with instance variables (String) name, (Integer)age, (String)city and get the instance of the Class using constructor reference  
-Implement following functional interfaces from java.util.function using lambdas:
+5. Implement following functional interfaces from java.util.function using lambdas:
 
 * (1) Consumer
 
@@ -23,18 +23,18 @@ Implement following functional interfaces from java.util.function using lambdas:
 
 * (4) Function
 
-5. Create and access default and static method of an interface.
+6. Create and access default and static method of an interface.
 
-6. Override the default method of the interface.
+7. Override the default method of the interface.
 
-7. Implement multiple inheritance with default method inside  interface.
+8. Implement multiple inheritance with default method inside  interface.
 
-8. Collect all the even numbers from an integer list.
+9. Collect all the even numbers from an integer list.
 
-9. Sum all the numbers greater than 5 in the integer list.
+10. Sum all the numbers greater than 5 in the integer list.
 
-10. Find average of the number inside integer list after doubling it.
+11. Find average of the number inside integer list after doubling it.
 
-11. Find the first even number in the integer list which is greater than 3.
+12. Find the first even number in the integer list which is greater than 3.
 
 
