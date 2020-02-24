@@ -1,13 +1,40 @@
 # bootcampAssignments
-## Java Collections
+## Java 8
 ### Assignment
 
 	
-1. Write Java code to define List . Insert 5 floating point numbers in List, and using an iterator, find the sum of the numbers in List.
-2. Write a method that takes a string and returns the number of unique characters in the string.
-3. Write a method that takes a string and print the number of occurrence of each character characters in the string.
-4. Write a program to sort HashMap by value.
-5. Write a program to sort Employee objects based on highest salary using Comparator. Employee class{ Double Age; Double Salary; String Name
-6. Write a program to sort the Student objects based on Score , if the score are same then sort on First Name . Class Student{ String Name; Double Score; Double Age
-7. Print the elements of an array in the decreasing frequency if 2 numbers have same frequency then print the one which came first.
-8. Design a Data Structure SpecialStack that supports all the stack operations like push(), pop(), isEmpty(), isFull() and an additional operation getMin() which should return minimum element from the SpecialStack. (Expected complexity ­ O(1))
+1. Write the following a functional interface and implement it using lambda:
+* (1) First number is greater than second number or not             Parameter (int ,int ) Return boolean
+* (2) Increment the number by 1 and return incremented value    Parameter (int) Return int
+* (3) Concatination of 2 string                                                             Parameter (String , String ) Return (String)
+* (4) Convert a string to uppercase and return .                                Parameter (String) Return (String)
+2. Create a functional interface whose method takes 2 integers and return one integer.
+
+3. Using (instance) Method reference create and apply add and subtract method and using (Static) Method reference create and apply multiplication method for the functional interface created.
+
+4. Create an Employee Class with instance variables (String) name, (Integer)age, (String)city and get the instance of the Class using constructor reference  
+Implement following functional interfaces from java.util.function using lambdas:
+
+* (1) Consumer
+
+* (2) Supplier
+
+* (3) Predicate
+
+* (4) Function
+
+5. Create and access default and static method of an interface.
+
+6. Override the default method of the interface.
+
+7. Implement multiple inheritance with default method inside  interface.
+
+8. Collect all the even numbers from an integer list.
+
+9. Sum all the numbers greater than 5 in the integer list.
+
+10. Find average of the number inside integer list after doubling it.
+
+11. Find the first even number in the integer list which is greater than 3.
+
+
