@@ -48,6 +48,4 @@ public class App {
         multiplierInterface.multiplication(11, 3);
 
     }
-
-
 }
