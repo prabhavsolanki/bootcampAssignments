@@ -13,9 +13,9 @@ public class App {
         // Declare and Initialize an array
         int[] array = {2, 2, 3, 3, 3, 1, 1, 4, 5, 5};
 
-        Map<Integer, Integer> map = new HashMap<>();
-        Map<Integer, Integer> arrayMap = new LinkedHashMap<>();
-        List<Integer> outputArray = new ArrayList<>();
+        Map<Integer, Integer> map = new HashMap<>(); // for mapping frequencies
+        Map<Integer, Integer> arrayMap = new LinkedHashMap<>(); // for mapping indices
+        List<Integer> outputArray = new ArrayList<>(); // for storing result
 
         // Assign elements and their frequency in map
         for (int current : array) {
