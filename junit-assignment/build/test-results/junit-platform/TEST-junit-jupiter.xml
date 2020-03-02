@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JUnit Jupiter" tests="2" skipped="0" failures="0" errors="0" time="0.027" hostname="syed" timestamp="2020-02-26T10:53:58">
+<testsuite name="JUnit Jupiter" tests="37" skipped="0" failures="0" errors="0" time="0.32" hostname="syed" timestamp="2020-03-02T16:11:25">
 <properties>
 <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
 <property name="file.encoding" value="UTF-8"/>
@@ -7,7 +7,7 @@
 <property name="file.separator" value="/"/>
 <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
 <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-<property name="java.class.path" value="/home/syed/IdeaProjects/ttn-bootcamp-junit-master/build/classes/java/test:/home/syed/IdeaProjects/ttn-bootcamp-junit-master/build/resources/test:/home/syed/IdeaProjects/ttn-bootcamp-junit-master/build/classes/java/main:/home/syed/IdeaProjects/ttn-bootcamp-junit-master/build/resources/main:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.2/e57de973ac81662ec2b9b225df6c882a641fabe6/junit-jupiter-engine-5.0.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.0.2/4024737a023e98dc6c9cbbd89fe0dd83975df65/junit-jupiter-api-5.0.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.vintage/junit-vintage-engine/4.12.2/3ee780f46c5669ba5cf6a70405c49becec6f2cef/junit-vintage-engine-4.12.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.9.0/52f6548ae1688e126c29b5dc400929dc0128615/log4j-core-2.9.0.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-jul/2.9.0/42fcf24286676172f2cf4665a6bdf23e1fbf6bae/log4j-jul-2.9.0.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.0.2/7cd136827fbfe3e6301b95f0340d654ad54feaa4/junit-platform-launcher-1.0.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.0.2/ae5d9b8c44d78da636e4e1e00a907fe0fb7bcb8f/junit-platform-engine-1.0.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0/6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4/opentest4j-1.0.0.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.0.2/e348a3a67940694f0718d04f9b0784b3dfb7819b/junit-platform-commons-1.0.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.9.0/e0dcd508dfc4864a2f5a1963d6ffad170d970375/log4j-api-2.9.0.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.2/2bf2cd18040bfe229bad813c7ab150a0f7ea8153/junit-platform-console-1.0.2.jar"/>
+<property name="java.class.path" value="/home/syed/IdeaProjects/junit-assignment/build/classes/java/test:/home/syed/IdeaProjects/junit-assignment/build/resources/test:/home/syed/IdeaProjects/junit-assignment/build/classes/java/main:/home/syed/IdeaProjects/junit-assignment/build/resources/main:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-params/5.2.0/d70083080bf3400c181562919cb03bf7588104e1/junit-jupiter-params-5.2.0.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.4.2/4d10922ce4d9c4e22cef8ff5386cb273b9f12281/junit-jupiter-engine-5.4.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.4.2/665d1c0daecb26c6210c872768000b417e7e52b6/junit-jupiter-api-5.4.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.9.0/52f6548ae1688e126c29b5dc400929dc0128615/log4j-core-2.9.0.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-jul/2.9.0/42fcf24286676172f2cf4665a6bdf23e1fbf6bae/log4j-jul-2.9.0.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.0.2/7cd136827fbfe3e6301b95f0340d654ad54feaa4/junit-platform-launcher-1.0.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.4.2/52b70561f65bb397b054876f2d8c6f30b06c3581/junit-platform-engine-1.4.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.4.2/37993dc807ca253aa347be8968a0ae7b70642dbc/junit-platform-commons-1.4.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.apiguardian/apiguardian-api/1.0.0/3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d/apiguardian-api-1.0.0.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.1.1/efd9f971e91074491ea55b19f67b13470cf4fcdd/opentest4j-1.1.1.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.9.0/e0dcd508dfc4864a2f5a1963d6ffad170d970375/log4j-api-2.9.0.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.2/2bf2cd18040bfe229bad813c7ab150a0f7ea8153/junit-platform-console-1.0.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.0.2/ae5d9b8c44d78da636e4e1e00a907fe0fb7bcb8f/junit-platform-engine-1.0.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.0.2/e348a3a67940694f0718d04f9b0784b3dfb7819b/junit-platform-commons-1.0.2.jar:/home/syed/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0/6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4/opentest4j-1.0.0.jar"/>
 <property name="java.class.version" value="52.0"/>
 <property name="java.endorsed.dirs" value="/home/syed/.sdkman/candidates/java/8.0.242-zulu/jre/lib/endorsed"/>
 <property name="java.ext.dirs" value="/home/syed/.sdkman/candidates/java/8.0.242-zulu/jre/lib/ext:/usr/java/packages/lib/ext"/>
@@ -44,29 +44,239 @@
 <property name="sun.cpu.isalist" value=""/>
 <property name="sun.desktop" value="gnome"/>
 <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --details NONE --scan-class-path /home/syed/IdeaProjects/ttn-bootcamp-junit-master/build/classes/java/main:/home/syed/IdeaProjects/ttn-bootcamp-junit-master/build/resources/main:/home/syed/IdeaProjects/ttn-bootcamp-junit-master/build/classes/java/test:/home/syed/IdeaProjects/ttn-bootcamp-junit-master/build/resources/test -n ^.*Tests?$ -T slow --reports-dir /home/syed/IdeaProjects/ttn-bootcamp-junit-master/build/test-results/junit-platform"/>
+<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --details NONE --scan-class-path /home/syed/IdeaProjects/junit-assignment/build/classes/java/main:/home/syed/IdeaProjects/junit-assignment/build/resources/main:/home/syed/IdeaProjects/junit-assignment/build/classes/java/test:/home/syed/IdeaProjects/junit-assignment/build/resources/test -n ^.*Tests?$ -T slow --reports-dir /home/syed/IdeaProjects/junit-assignment/build/test-results/junit-platform"/>
 <property name="sun.java.launcher" value="SUN_STANDARD"/>
 <property name="sun.jnu.encoding" value="UTF-8"/>
 <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
 <property name="sun.os.patch.level" value="unknown"/>
 <property name="user.country" value="IN"/>
-<property name="user.dir" value="/home/syed/IdeaProjects/ttn-bootcamp-junit-master"/>
+<property name="user.dir" value="/home/syed/IdeaProjects/junit-assignment"/>
 <property name="user.home" value="/home/syed"/>
 <property name="user.language" value="en"/>
 <property name="user.name" value="syed"/>
 <property name="user.timezone" value="Asia/Kolkata"/>
 <property name="user.variant" value=""/>
 </properties>
-<testcase name="canary()" classname="com.im.FirstTest" time="0.009">
+<testcase name="should_ThrowsRuntimeException_When_ListIsEmpty()" classname="com.im.FirstTest$CalculateAverage" time="0.02">
 <system-out><![CDATA[
-unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[method:canary()]
-display-name: canary()
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:CalculateAverage]/[method:should_ThrowsRuntimeException_When_ListIsEmpty()]
+display-name: should_ThrowsRuntimeException_When_ListIsEmpty()
 ]]></system-out>
 </testcase>
-<testcase name="fixMe()" classname="healthycoderapp.BMICalculatorTest" time="0">
+<testcase name="should_ReturnAverage_When_We_CalculateAverage()" classname="com.im.FirstTest$CalculateAverage" time="0.005">
 <system-out><![CDATA[
-unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[method:fixMe()]
-display-name: fixMe()
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:CalculateAverage]/[method:should_ReturnAverage_When_We_CalculateAverage()]
+display-name: should_ReturnAverage_When_We_CalculateAverage()
+]]></system-out>
+</testcase>
+<testcase name="should_ThrowsRuntimeException_When_ListSizeIsOne()" classname="com.im.FirstTest$CalculateAverage" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:CalculateAverage]/[method:should_ThrowsRuntimeException_When_ListSizeIsOne()]
+display-name: should_ThrowsRuntimeException_When_ListSizeIsOne()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnNull_When_ListOnlyContainsEvenElements()" classname="com.im.FirstTest$FilterEvenElements" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:FilterEvenElements]/[method:should_ReturnNull_When_ListOnlyContainsEvenElements()]
+display-name: should_ReturnNull_When_ListOnlyContainsEvenElements()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnListOfEvenNumbers_When_FilteringAllElements()" classname="com.im.FirstTest$FilterEvenElements" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:FilterEvenElements]/[method:should_ReturnListOfEvenNumbers_When_FilteringAllElements()]
+display-name: should_ReturnListOfEvenNumbers_When_FilteringAllElements()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnTrue_When_OneCharacterStringIsPassed()" classname="com.im.FirstTest$StringIsPalindrome" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:StringIsPalindrome]/[method:should_ReturnTrue_When_OneCharacterStringIsPassed()]
+display-name: should_ReturnTrue_When_OneCharacterStringIsPassed()
+]]></system-out>
+</testcase>
+<testcase name="should_ThrowsNullPointerException_When_OriginalStringIsNull()" classname="com.im.FirstTest$StringIsPalindrome" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:StringIsPalindrome]/[method:should_ThrowsNullPointerException_When_OriginalStringIsNull()]
+display-name: should_ThrowsNullPointerException_When_OriginalStringIsNull()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnTrue_When_StringIsPalindrome()" classname="com.im.FirstTest$StringIsPalindrome" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:StringIsPalindrome]/[method:should_ReturnTrue_When_StringIsPalindrome()]
+display-name: should_ReturnTrue_When_StringIsPalindrome()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnFalse_When_StringIsNotPalindrome()" classname="com.im.FirstTest$StringIsPalindrome" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:StringIsPalindrome]/[method:should_ReturnFalse_When_StringIsNotPalindrome()]
+display-name: should_ReturnFalse_When_StringIsNotPalindrome()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnTrue_When_OriginalStringIsEmpty()" classname="com.im.FirstTest$StringIsPalindrome" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:StringIsPalindrome]/[method:should_ReturnTrue_When_OriginalStringIsEmpty()]
+display-name: should_ReturnTrue_When_OriginalStringIsEmpty()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnMainString_When_ReplacementString_IsNull()" classname="com.im.FirstTest$MainString_Contains_SubString" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:MainString_Contains_SubString]/[method:should_ReturnMainString_When_ReplacementString_IsNull()]
+display-name: should_ReturnMainString_When_ReplacementString_IsNull()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnNewString_When_MainString_Contains_SubString()" classname="com.im.FirstTest$MainString_Contains_SubString" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:MainString_Contains_SubString]/[method:should_ReturnNewString_When_MainString_Contains_SubString()]
+display-name: should_ReturnNewString_When_MainString_Contains_SubString()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnEmpty_When_MainString_IsEmpty()" classname="com.im.FirstTest$MainString_Contains_SubString" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:MainString_Contains_SubString]/[method:should_ReturnEmpty_When_MainString_IsEmpty()]
+display-name: should_ReturnEmpty_When_MainString_IsEmpty()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnMainString_When_SubString_IsNull()" classname="com.im.FirstTest$MainString_Contains_SubString" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:MainString_Contains_SubString]/[method:should_ReturnMainString_When_SubString_IsNull()]
+display-name: should_ReturnMainString_When_SubString_IsNull()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnMainString_When_MainString_NotContains_SubString()" classname="com.im.FirstTest$MainString_Contains_SubString" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.im.FirstTest]/[nested-class:MainString_Contains_SubString]/[method:should_ReturnMainString_When_MainString_NotContains_SubString()]
+display-name: should_ReturnMainString_When_MainString_NotContains_SubString()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnCorrectDietPlan_When_CorrectCoder()[1]" classname="should_ReturnCorrectDietPlan_When_CorrectCoder()" time="0.005">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.DietPlannerTest]/[test-template:should_ReturnCorrectDietPlan_When_CorrectCoder()]/[test-template-invocation:#1]
+display-name: repetition 1 of 10
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnCorrectDietPlan_When_CorrectCoder()[2]" classname="should_ReturnCorrectDietPlan_When_CorrectCoder()" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.DietPlannerTest]/[test-template:should_ReturnCorrectDietPlan_When_CorrectCoder()]/[test-template-invocation:#2]
+display-name: repetition 2 of 10
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnCorrectDietPlan_When_CorrectCoder()[3]" classname="should_ReturnCorrectDietPlan_When_CorrectCoder()" time="0.011">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.DietPlannerTest]/[test-template:should_ReturnCorrectDietPlan_When_CorrectCoder()]/[test-template-invocation:#3]
+display-name: repetition 3 of 10
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnCorrectDietPlan_When_CorrectCoder()[4]" classname="should_ReturnCorrectDietPlan_When_CorrectCoder()" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.DietPlannerTest]/[test-template:should_ReturnCorrectDietPlan_When_CorrectCoder()]/[test-template-invocation:#4]
+display-name: repetition 4 of 10
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnCorrectDietPlan_When_CorrectCoder()[5]" classname="should_ReturnCorrectDietPlan_When_CorrectCoder()" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.DietPlannerTest]/[test-template:should_ReturnCorrectDietPlan_When_CorrectCoder()]/[test-template-invocation:#5]
+display-name: repetition 5 of 10
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnCorrectDietPlan_When_CorrectCoder()[6]" classname="should_ReturnCorrectDietPlan_When_CorrectCoder()" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.DietPlannerTest]/[test-template:should_ReturnCorrectDietPlan_When_CorrectCoder()]/[test-template-invocation:#6]
+display-name: repetition 6 of 10
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnCorrectDietPlan_When_CorrectCoder()[7]" classname="should_ReturnCorrectDietPlan_When_CorrectCoder()" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.DietPlannerTest]/[test-template:should_ReturnCorrectDietPlan_When_CorrectCoder()]/[test-template-invocation:#7]
+display-name: repetition 7 of 10
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnCorrectDietPlan_When_CorrectCoder()[8]" classname="should_ReturnCorrectDietPlan_When_CorrectCoder()" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.DietPlannerTest]/[test-template:should_ReturnCorrectDietPlan_When_CorrectCoder()]/[test-template-invocation:#8]
+display-name: repetition 8 of 10
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnCorrectDietPlan_When_CorrectCoder()[9]" classname="should_ReturnCorrectDietPlan_When_CorrectCoder()" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.DietPlannerTest]/[test-template:should_ReturnCorrectDietPlan_When_CorrectCoder()]/[test-template-invocation:#9]
+display-name: repetition 9 of 10
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnCorrectDietPlan_When_CorrectCoder()[10]" classname="should_ReturnCorrectDietPlan_When_CorrectCoder()" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.DietPlannerTest]/[test-template:should_ReturnCorrectDietPlan_When_CorrectCoder()]/[test-template-invocation:#10]
+display-name: repetition 10 of 10
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnCoderWithWorstBMI_when_CoderListNotEmpty()" classname="healthycoderapp.BMICalculatorTest$FindCoderWithWorstBMITests" time="0.005">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[nested-class:FindCoderWithWorstBMITests]/[method:should_ReturnCoderWithWorstBMI_when_CoderListNotEmpty()]
+display-name: should_ReturnCoderWithWorstBMI_when_CoderListNotEmpty()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnCorrectBmiScoreArray_when_CoderListNotEmpty()" classname="healthycoderapp.BMICalculatorTest$FindCoderWithWorstBMITests" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[nested-class:FindCoderWithWorstBMITests]/[method:should_ReturnCorrectBmiScoreArray_when_CoderListNotEmpty()]
+display-name: should_ReturnCorrectBmiScoreArray_when_CoderListNotEmpty()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnNull_when_CoderNotEmpty()" classname="healthycoderapp.BMICalculatorTest$IsDietRecommendedTests" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[nested-class:IsDietRecommendedTests]/[method:should_ReturnNull_when_CoderNotEmpty()]
+display-name: should_ReturnNull_when_CoderNotEmpty()
+]]></system-out>
+</testcase>
+<testcase name="should_throwArithmeticException_When_HeightZero()" classname="healthycoderapp.BMICalculatorTest$IsDietRecommendedTests" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[nested-class:IsDietRecommendedTests]/[method:should_throwArithmeticException_When_HeightZero()]
+display-name: should_throwArithmeticException_When_HeightZero()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnFalse_When_DietNotRecommended()" classname="healthycoderapp.BMICalculatorTest$IsDietRecommendedTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[nested-class:IsDietRecommendedTests]/[method:should_ReturnFalse_When_DietNotRecommended()]
+display-name: should_ReturnFalse_When_DietNotRecommended()
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnTrue_When_DietRecommended(Double, Double)[1]" classname="should_ReturnTrue_When_DietRecommended(Double, Double)" time="0.035">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[nested-class:IsDietRecommendedTests]/[test-template:should_ReturnTrue_When_DietRecommended(java.lang.Double, java.lang.Double)]/[test-template-invocation:#1]
+display-name: weight=82.0, height=1.68
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnTrue_When_DietRecommended(Double, Double)[2]" classname="should_ReturnTrue_When_DietRecommended(Double, Double)" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[nested-class:IsDietRecommendedTests]/[test-template:should_ReturnTrue_When_DietRecommended(java.lang.Double, java.lang.Double)]/[test-template-invocation:#2]
+display-name: weight=85.0, height=1.69
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnTrue_When_DietRecommended(Double, Double)[3]" classname="should_ReturnTrue_When_DietRecommended(Double, Double)" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[nested-class:IsDietRecommendedTests]/[test-template:should_ReturnTrue_When_DietRecommended(java.lang.Double, java.lang.Double)]/[test-template-invocation:#3]
+display-name: weight=89.0, height=1.72
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnTrue_When_DietRecommended(Double, Double)[4]" classname="should_ReturnTrue_When_DietRecommended(Double, Double)" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[nested-class:IsDietRecommendedTests]/[test-template:should_ReturnTrue_When_DietRecommended(java.lang.Double, java.lang.Double)]/[test-template-invocation:#4]
+display-name: weight=95.0, height=1.75
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnTrue_When_DietRecommended(Double, Double)[5]" classname="should_ReturnTrue_When_DietRecommended(Double, Double)" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[nested-class:IsDietRecommendedTests]/[test-template:should_ReturnTrue_When_DietRecommended(java.lang.Double, java.lang.Double)]/[test-template-invocation:#5]
+display-name: weight=110.0, height=1.78
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnTrue_When_DietRecommended(Double, Double)[6]" classname="should_ReturnTrue_When_DietRecommended(Double, Double)" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[nested-class:IsDietRecommendedTests]/[test-template:should_ReturnTrue_When_DietRecommended(java.lang.Double, java.lang.Double)]/[test-template-invocation:#6]
+display-name: weight=120.0, height=1.89
+]]></system-out>
+</testcase>
+<testcase name="should_ReturnTrue_When_DietRecommended(Double, Double)[7]" classname="should_ReturnTrue_When_DietRecommended(Double, Double)" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:healthycoderapp.BMICalculatorTest]/[nested-class:IsDietRecommendedTests]/[test-template:should_ReturnTrue_When_DietRecommended(java.lang.Double, java.lang.Double)]/[test-template-invocation:#7]
+display-name: weight=125.5, height=1.92
 ]]></system-out>
 </testcase>
 <system-out><![CDATA[

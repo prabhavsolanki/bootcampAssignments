@@ -1,5 +1,0 @@
-package healthycoderapp;
-
-class DietPlannerTest {
-
-}
